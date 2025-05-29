@@ -1,0 +1,23 @@
+<div class="section">
+    <h3>🍽️ إدخال الأكل</h3>
+
+    <label>اسم الأكلة:</label>
+    <input type="text" id="foodName" />
+
+    <label>السعرات (كالوري):</label>
+    <input type="number" id="foodCalories" />
+
+    <label>البروتين (جم):</label>
+    <input type="number" id="foodProtein" />
+
+    <label>الكارب (جم):</label>
+    <input type="number" id="foodCarbs" />
+
+    <label>الدهون (جم):</label>
+    <input type="number" id="foodFats" />
+
+    <button onclick="addFood()">أضف الأكلة</button>
+
+    <div id="foodList"></div>
+    <div id="totals"></div>
+  </div>
